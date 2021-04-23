@@ -8,14 +8,14 @@ const vimeo = 'https://vimeo.com/search?q=';
 function ytSubmitted(event) {
   event.preventDefault();
   const url = youtube + ytQuery.value;
-  const win = window.open(url, '_blank', 'noopener,resizable,scrollbars');
+  const win = window.open(url);
   win.focus();
 }
 
 function vmSubmitted(event) {
   event.preventDefault();
   const url = vimeo + vmQuery.value;
-  const win = window.open(url, '_blank', 'noopener,resizable,scrollbars');
+  const win = window.open(url);
   win.focus();
 }
 

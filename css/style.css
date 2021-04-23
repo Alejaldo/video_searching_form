@@ -8,14 +8,20 @@ article {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  width: 70%;
-  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
   text-align: center;
   padding: 20px;
+}
+
+.video-searching {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
