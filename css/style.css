@@ -11,11 +11,11 @@ article {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(300px, 100%), 1fr));
   grid-gap: 20px;
   max-width: 800px;
   margin: 0 auto;
-  padding: 5% 0;
+  padding: 10% 5%;
 }
 
 header {
@@ -44,8 +44,7 @@ h2 {
 form {
   background-color: #4654e1;
   height: 44px;
-  min-width: 150px;
-  max-width: 250px;
+  max-width: 300px;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
