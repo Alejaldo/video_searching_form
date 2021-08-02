@@ -4,6 +4,7 @@
 # Configuration
 + Searching in Java Script way (`/assets/main.js`)
 + Background picture which you can customize by changing `background-image` in `/css/style.css`
++ Mobile screen friendly
 
-# Demo
+# Launch
 Just try it: https://alejaldo.github.io/video_searching_form/
